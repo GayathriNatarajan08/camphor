@@ -36,6 +36,7 @@ The login page includes two fields: `Email` and `Password`. Upon entering the co
 
 # Installation - npm install
 Run the development server - npm run dev
+
 Visit the login page at http://localhost:3000.
 
 

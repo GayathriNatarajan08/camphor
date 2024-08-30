@@ -15,13 +15,13 @@ This is a simple **Login Page** built with Next.js. It includes validation, navi
 
 ### Folder Structure
 
-# Login Page (`/app/login/page.js`)
+# Login Page (`/app/page.js`)
 
 The login page includes two fields: `Email` and `Password`. Upon entering the correct credentials, the user is redirected to their respective dashboard (`Admin` or `Handler`). If the credentials are incorrect, an error message is displayed.
 
 # User Flow
 
-1. Users visit the login page at `/login`.
+1. Users visit the login page at `localhost:3000`.
 2. Upon entering the email and password:
    - **Admin** users are redirected to the `/admin` page.
    - **Handler** users are redirected to the `/handler` page.
@@ -36,6 +36,6 @@ The login page includes two fields: `Email` and `Password`. Upon entering the co
 
 # Installation - npm install
 Run the development server - npm run dev
-Visit the login page at http://localhost:3000/login.
+Visit the login page at http://localhost:3000.
 
 
